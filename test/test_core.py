@@ -37,7 +37,7 @@ class TestMethods(unittest.TestCase):
         self.assertAlmostEqual(operation.avg(), 2.5, msg='Incorrect result')
         
     def test_fatorial(self):
-        operation = Operations(5)
+        operation = Operations(5,1)
         self.assertAlmostEqual(operation.fatorial(), 120, msg='Incorrect result')    
 
 if __name__ == '__main__':
